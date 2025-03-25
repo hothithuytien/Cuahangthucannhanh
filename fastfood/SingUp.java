@@ -12,7 +12,7 @@ public class SingUp extends javax.swing.JFrame {
    
     @SuppressWarnings("unchecked")
     
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -37,7 +37,7 @@ public class SingUp extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(800, 500));
         jPanel1.setLayout(null);
 
-        jPanel2.setBackground(new java.awt.Color(237, 188, 209));
+        jPanel2.setBackground(new java.awt.Color(0, 102, 78));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -53,10 +53,10 @@ public class SingUp extends javax.swing.JFrame {
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 0, 400, 500);
 
-        jPanel3.setBackground(new java.awt.Color(0, 102, 78));
+        jPanel3.setBackground(new java.awt.Color(237, 188, 209));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(237, 188, 209));
+        jLabel1.setForeground(new java.awt.Color(0, 102, 78));
         jLabel1.setText("SIGN UP");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
@@ -172,9 +172,9 @@ public class SingUp extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void SignupbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SignupbtnActionPerformed
+    private void SignupbtnActionPerformed(java.awt.event.ActionEvent evt) {                                          
 //       String fullName, userName, passWord;
 //       int phone;
 //       String SUrl, SUser, Spass;
@@ -183,20 +183,20 @@ public class SingUp extends javax.swing.JFrame {
 //       }catch(Exception e){
 //           
 //       }
-    }//GEN-LAST:event_SignupbtnActionPerformed
+    }                                         
 
-    private void LoginbtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginbtnActionPerformed
+    private void LoginbtnActionPerformed(java.awt.event.ActionEvent evt) {                                         
         Login login = new Login();
         login.setVisible(true);
         login.setLocationRelativeTo(null);
         this.dispose();
         // TODO add your handling code here:
-    }//GEN-LAST:event_LoginbtnActionPerformed
+    }                                        
 
                             
 
    
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton Loginbtn;
     private javax.swing.JButton Signupbtn;
     private javax.swing.JTextField fnam;
@@ -212,6 +212,6 @@ public class SingUp extends javax.swing.JFrame {
     private javax.swing.JPasswordField passwd;
     private javax.swing.JTextField phone;
     private javax.swing.JTextField uname;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
 
