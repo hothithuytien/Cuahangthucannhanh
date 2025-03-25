@@ -13,7 +13,7 @@ public class Login extends javax.swing.JFrame {
 
    
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -35,7 +35,7 @@ public class Login extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(800, 500));
         jPanel1.setLayout(null);
 
-        jPanel2.setBackground(new java.awt.Color(237, 188, 209));
+        jPanel2.setBackground(new java.awt.Color(0, 102, 78));
         jPanel2.setPreferredSize(new java.awt.Dimension(400, 500));
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -52,10 +52,10 @@ public class Login extends javax.swing.JFrame {
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 0, 400, 500);
 
-        jPanel3.setBackground(new java.awt.Color(0, 102, 78));
+        jPanel3.setBackground(new java.awt.Color(237, 188, 209));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(237, 188, 209));
+        jLabel1.setForeground(new java.awt.Color(0, 102, 78));
         jLabel1.setText("LOGIN");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 2, 18)); // NOI18N
@@ -165,29 +165,29 @@ public class Login extends javax.swing.JFrame {
         getAccessibleContext().setAccessibleParent(this);
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }// </editor-fold>                        
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }                                        
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
             SingUp singup = new SingUp();
             singup.setVisible(true);
             singup.setLocationRelativeTo(null);
             this.dispose();
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }                                        
 
-    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }                                           
 
     /**
      * @param args the command line arguments
      */
     
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+    // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
@@ -199,5 +199,5 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JTextField jTextField1;
-    // End of variables declaration//GEN-END:variables
+    // End of variables declaration                   
 }
